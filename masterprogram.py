@@ -45,7 +45,7 @@ lastday=0
 
 #define function for sending warning email if tempearture is out of range:
 GMAIL_USER= "bergland.rpi@gmail.com"
-GMAIL_PASS="photoperiod!"
+GMAIL_PASS="ph0t0per10d!"
 SMTP_SERVER="smtp.gmail.com"
 SMTP_PORT=587
 
@@ -408,4 +408,3 @@ while True:
 
     # determine how much time to wait so that loop is executed based on checkTime seconds
     time.sleep(a["checkTime"] - ((time.time() - loopstart) % 60.0))
-
